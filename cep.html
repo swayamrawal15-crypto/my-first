@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Career Guidance & Skill Portal — Rural Youth</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+      :root{
+        --accent:#0d6efd;
+      }
+      body{font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;}
+      .hero{
+        background: linear-gradient(135deg, rgba(13,110,253,0.08), rgba(25,135,84,0.03));
+        padding: 3rem 0;
+      }
+      .card-img-top{
+        object-fit: cover;
+        height: 180px;
+      }
+      .feature-icon{
+        width:64px;height:64px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:28px;background:#fff;border:1px solid rgba(0,0,0,0.04);box-shadow:0 6px 18px rgba(13,110,253,0.06);
+      }
+      .sdg-badge{height:48px}
+      footer{background:#0f1724;color:#fff}
+      @media (max-width:575px){
+        .card-img-top{height:140px}
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="https://anrd.al/wp-content/uploads/2022/06/RYH-logo-300x245.jpg" alt="logo" width="38" height="38" class="rounded me-2">
+          <div>
+            <div style="font-weight:700">Rural Youth Hub</div>
+            <small class="text-muted">Career Guidance & Skill Portal</small>
+          </div>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#resources">Resources</a></li>
+            <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+            <li class="nav-item"><a class="nav-link" href="#mentors">Mentors</a></li>
+            <li class="nav-item ms-2 d-none d-lg-block"><a class="btn btn-outline-primary" href="#join">Join Now</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <header id="home" class="hero">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h1 class="display-6 fw-bold">Career Guidance & Skill Portal for Rural Youth</h1>
+            <p class="lead text-muted">Bridging the exposure gap: free career counselling, skill-building tutorials, mentor connections and pathways to sustainable livelihoods.</p>
+
+            <div class="d-flex gap-2 mt-4">
+              <a href="#resources" class="btn btn-primary btn-lg">Explore Resources</a>
+              <a href="#mentors" class="btn btn-outline-secondary btn-lg">Meet Mentors</a>
+            </div>
+
+            <div class="mt-4">
+              <small class="text-muted">Aligned with <strong>SDG 4</strong> (Quality Education) &amp; <strong>SDG 8</strong> (Decent Work)</small>
+              <div class="mt-2 d-flex gap-2 align-items-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Sustainable_Development_Goal_04QualityEducation.svg/1200px-Sustainable_Development_Goal_04QualityEducation.svg.png" alt="SDG4" class="sdg-badge">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Sustainable_Development_Goal_08DecentWork.svg/1200px-Sustainable_Development_Goal_08DecentWork.svg.png" alt="SDG8" class="sdg-badge">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <div class="card shadow-sm">
+              <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=3ae7b6f55bb3d8e3e1f0d73f9bb5b9a8" class="card-img-top" alt="rural-learning">
+              <div class="card-body">
+                <h5 class="card-title">Featured: Practical Skills for Local Jobs</h5>
+                <p class="card-text text-muted">Short video playlists, local training guides and opportunities to connect with nearby mentors &amp; NGOs.</p>
+                <a href="#courses" class="btn btn-sm btn-primary">See Courses</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- FEATURES -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="d-flex gap-3">
+              <div class="feature-icon"><i class="bi bi-book"></i></div>
+              <div>
+                <h5>Free Career Counselling</h5>
+                <p class="text-muted mb-0">Guidance on career paths, scholarships and local opportunities tailored to rural learners.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="d-flex gap-3">
+              <div class="feature-icon"><i class="bi bi-play-btn"></i></div>
+              <div>
+                <h5>Video Tutorials</h5>
+                <p class="text-muted mb-0">Curated playlists — mobile-friendly videos on vocational skills, digital literacy and entrepreneurship.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="d-flex gap-3">
+              <div class="feature-icon"><i class="bi bi-people"></i></div>
+              <div>
+                <h5>Mentor Connections</h5>
+                <p class="text-muted mb-0">Volunteer mentors from industry and academia provide direction and mock interviews.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESOURCES / VIDEOS -->
+    <section id="resources" class="py-5 bg-light">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <h3 class="mb-0">Resources & Videos</h3>
+          <small class="text-muted">Hand-picked playlists & quick-start guides</small>
+        </div>
+
+        <div class="row g-4">
+
+          <!-- Video card 1 -->
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=0a7a6f0c9a2bcf6d8bcc4a9c0b36b9f6" class="card-img-top" alt="career-guidance">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Career Guidance — Beginner's Guide</h5>
+                <p class="card-text text-muted">Videos explaining how to explore career options, local trades and scholarship paths.</p>
+                <div class="mt-auto d-flex gap-2">
+                  <a href="https://www.youtube.com/results?search_query=career+guidance+for+rural+youth" target="_blank" class="btn btn-sm btn-primary">Watch on YouTube</a>
+                  <a href="#" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#resourceModal" data-title="Career Guidance — Beginner's Guide" data-img="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=0a7a6f0c9a2bcf6d8bcc4a9c0b36b9f6">Preview</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video card 2 -->
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img src="https://www.careertipstogo.com/wp-content/uploads/2019/01/iStock_38373414_XLARGE-1024x677.jpg" class="card-img-top" alt="skill-training">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Skill Training: Practical Vocational Tips</h5>
+                <p class="card-text text-muted">Short tutorials on tailoring, carpentry, basic electrical repair and digital skills.</p>
+                <div class="mt-auto d-flex gap-2">
+                  <a href="https://www.youtube.com/results?search_query=vocational+training+for+beginners" target="_blank" class="btn btn-sm btn-primary">Watch on YouTube</a>
+                  <a href="#" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#resourceModal" data-title="Skill Training: Practical Vocational Tips" data-img="https://www.careertipstogo.com/wp-content/uploads/2019/01/iStock_38373414_XLARGE-1024x677.jpg">Preview</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video card 3 -->
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=6b3b6d4c1b1f3d2f4d8e4f7a9a8bf6b2" class="card-img-top" alt="entrepreneurship">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Entrepreneurship & Local Business</h5>
+                <p class="card-text text-muted">Guides on starting small enterprises, market linkages and simple bookkeeping.</p>
+                <div class="mt-auto d-flex gap-2">
+                  <a href="https://www.youtube.com/results?search_query=entrepreneurship+for+rural+youth" target="_blank" class="btn btn-sm btn-primary">Watch on YouTube</a>
+                  <a href="#" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#resourceModal" data-title="Entrepreneurship & Local Business" data-img="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=6b3b6d4c1b1f3d2f4d8e4f7a9a8bf6b2">Preview</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- COURSES -->
+    <section id="courses" class="py-5">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <h3 class="mb-0">Short Courses & Tutorials</h3>
+          <small class="text-muted">Self-paced • Mobile-friendly • Certificates</small>
+        </div>
+
+        <div class="row g-4">
+
+          <!-- Course card -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <img src="https://assets.ltkcontent.com/images/104108/What-Is-Digital-Literacy_7abbbb2796.jpg" class="card-img-top" alt="digital-literacy">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Digital Literacy for Beginners</h5>
+                <p class="card-text text-muted">Basics of smartphones, WhatsApp, Google search, short resume creation and online safety.</p>
+                <a href="https://www.youtube.com/results?search_query=digital+literacy+for+beginners" class="btn btn-sm btn-primary mt-auto" target="_blank">Open Tutorial</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=1d4c5b8a9f6a1c3b8d4e3a7c5f6b2d2f" class="card-img-top" alt="tailoring">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Tailoring & Small Crafts</h5>
+                <p class="card-text text-muted">Step-by-step project videos suitable for local markets and self-employment.</p>
+                <a href="https://www.youtube.com/results?search_query=tailoring+tutorials+for+beginners" class="btn btn-sm btn-primary mt-auto" target="_blank">Open Tutorial</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <img src="https://images.unsplash.com/photo-1542744094-24638eff58bb?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=2a4f6d7e8b9a1c3d4e5f6a7b8c9d0e1f" class="card-img-top" alt="agriculture">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Sustainable Farming & Agri-tech</h5>
+                <p class="card-text text-muted">Low-cost practices, small machinery use and plans to increase farm incomes.</p>
+                <a href="https://www.youtube.com/results?search_query=sustainable+farming+small+scale" class="btn btn-sm btn-primary mt-auto" target="_blank">Open Tutorial</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- MENTORS -->
+    <section id="mentors" class="py-5 bg-light">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <h3 class="mb-0">Mentor Connect</h3>
+          <small class="text-muted">Find volunteer mentors or request a session</small>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="card h-100 shadow-sm p-3">
+              <h5>Request a Mentor Session</h5>
+              <p class="text-muted">Tell us your area of interest and we'll match you with a volunteer mentor for a 30-minute call.</p>
+
+              <form id="mentorForm" class="row g-2">
+                <div class="col-12">
+                  <label class="form-label">Full name</label>
+                  <input type="text" class="form-control" required id="mName">
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Age</label>
+                  <input type="number" class="form-control" id="mAge">
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Phone / WhatsApp</label>
+                  <input type="tel" class="form-control" id="mPhone">
+                </div>
+                <div class="col-12">
+                  <label class="form-label">Area of interest</label>
+                  <select class="form-select" id="mInterest">
+                    <option>Digital Skills</option>
+                    <option>Vocational Training</option>
+                    <option>Entrepreneurship</option>
+                    <option>Agriculture</option>
+                    <option>College & Scholarships</option>
+                  </select>
+                </div>
+                <div class="col-12 d-flex gap-2">
+                  <button type="submit" class="btn btn-primary">Request Session</button>
+                  <button type="button" class="btn btn-outline-secondary" id="clearMentor">Clear</button>
+                </div>
+                <div class="col-12 mt-2" id="mentorMsg"></div>
+              </form>
+
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="row g-3">
+              <!-- mentor sample -->
+              <div class="col-6 col-sm-4">
+                <div class="card text-center p-2 shadow-sm h-100">
+                  <img src="https://www.stylecraze.com/wp-content/uploads/2020/09/Best-Qualities-Of-A-Good-Man-That-Make-Him-Desirable_1200px.jpg.webp" class="rounded-circle mx-auto d-block" style="width:80px;height:80px;object-fit:cover;" alt="mentor">
+                  <div class="card-body p-2">
+                    <h6 class="mb-0">Kalpesh Jain</h6>
+                    <small class="text-muted">Vocational Trainer</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-sm-4">
+                <div class="card text-center p-2 shadow-sm h-100">
+                  <img src="data:image/jpeg;base64,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" class="rounded-circle mx-auto d-block" style="width:80px;height:80px;object-fit:cover;" alt="mentor">
+                  <div class="card-body p-2">
+                    <h6 class="mb-0">Ravi Ahuja</h6>
+                    <small class="text-muted">Agritech Advisor</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-sm-4">
+                <div class="card text-center p-2 shadow-sm h-100">
+                  <img src="data:image/jpeg;base64,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" class="rounded-circle mx-auto d-block" style="width:80px;height:80px;object-fit:cover;" alt="mentor">
+                  <div class="card-body p-2">
+                    <h6 class="mb-0">Shivin Shah</h6>
+                    <small class="text-muted">Career Coach</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 text-center mt-2">
+                <a href="#join" class="btn btn-outline-primary">Become a Mentor</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- JOIN / CALL TO ACTION -->
+    <section id="join" class="py-5 text-white" style="background:linear-gradient(90deg, #0d6efd, #198754);">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-8">
+            <h3 class="mb-1">Join the Movement: Empower Rural Youth</h3>
+            <p class="mb-0">Sign up to receive weekly learning packs, or volunteer as a mentor — small actions create lasting impact.</p>
+          </div>
+          <div class="col-md-4 text-md-end mt-3 mt-md-0">
+            <a class="btn btn-light btn-lg" href="#" data-bs-toggle="modal" data-bs-target="#volunteerModal">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="pt-5 pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <h5>About</h5>
+            <p>A simple portal to help rural learners find career options, learn practical skills and connect with mentors — free and mobile-friendly.</p>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>Contact</h5>
+            <p>Email: <a class="text-white" href="mailto:info@ruralyouthhub.org">info@ruralyouthhub.org</a></p>
+            <p>Phone/WhatsApp: +91 98765 43210</p>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#resources" class="text-white">Resources</a></li>
+              <li><a href="#courses" class="text-white">Courses</a></li>
+              <li><a href="#mentors" class="text-white">Mentors</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="border-top mt-4 pt-3 d-flex justify-content-between align-items-center">
+          <small>© <span id="yYear"></span> Rural Youth Hub — Built for impact</small>
+          <div>
+            <a class="btn btn-sm btn-outline-light me-2" href="#">Privacy</a>
+            <a class="btn btn-sm btn-outline-light" href="#">Terms</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- RESOURCE PREVIEW MODAL -->
+    <div class="modal fade" id="resourceModal" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="resourceModalLabel">Preview</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <img id="resourceImg" src="" class="img-fluid mb-3" alt="preview">
+            <p class="text-muted">This is a preview image for the selected resource. Click "Watch on YouTube" on the card to open curated videos in a new tab.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- VOLUNTEER MODAL -->
+    <div class="modal fade" id="volunteerModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Volunteer / Mentor Signup</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <form id="volForm">
+              <div class="mb-3">
+                <label class="form-label">Full name</label>
+                <input class="form-control" id="vName" required>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Expertise</label>
+                <input class="form-control" id="vExpert" required>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" id="vEmail" required>
+              </div>
+              <div class="text-end">
+                <button class="btn btn-primary" type="submit">Sign Up</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Year in footer
+      document.getElementById('yYear').textContent = new Date().getFullYear();
+
+      // Resource modal preview
+      var resourceModal = document.getElementById('resourceModal');
+      resourceModal.addEventListener('show.bs.modal', function (event) {
+        var button = event.relatedTarget;
+        var title = button.getAttribute('data-title');
+        var img = button.getAttribute('data-img');
+        resourceModal.querySelector('.modal-title').textContent = title;
+        document.getElementById('resourceImg').src = img;
+      });
+
+      // Mentor form: simple local handler (replace with API call in production)
+      document.getElementById('mentorForm').addEventListener('submit', function(e){
+        e.preventDefault();
+        var name = document.getElementById('mName').value;
+        var interest = document.getElementById('mInterest').value;
+        document.getElementById('mentorMsg').innerHTML = '<div class="alert alert-success p-2">Thanks, '+name+' — we will match you with a mentor for <strong>'+interest+'</strong>. A volunteer will reach out via WhatsApp/Phone.</div>';
+        this.reset();
+      });
+      document.getElementById('clearMentor').addEventListener('click', function(){ document.getElementById('mentorForm').reset(); document.getElementById('mentorMsg').innerHTML = ''; });
+
+      // Volunteer form
+      document.getElementById('volForm').addEventListener('submit', function(e){
+        e.preventDefault();
+        var n = document.getElementById('vName').value;
+        var ex = document.getElementById('vExpert').value;
+        var email = document.getElementById('vEmail').value;
+        // In production, send to server. For demo, show success message and close modal.
+        alert('Thank you, '+n+'! We will contact you at '+email+' to onboard you as a '+ex+' mentor.');
+        var vm = bootstrap.Modal.getInstance(document.getElementById('volunteerModal'));
+        vm.hide();
+        this.reset();
+      });
+
+      // Accessibility: smooth scroll for internal links
+      document.querySelectorAll('a[href^="#"]').forEach(function(a){
+        a.addEventListener('click', function(e){
+          var target = document.querySelector(this.getAttribute('href'));
+          if(target){e.preventDefault(); target.scrollIntoView({behavior:'smooth', block:'start'});}
+        });
+      });
+    </script>
+  </body>
+</html>
